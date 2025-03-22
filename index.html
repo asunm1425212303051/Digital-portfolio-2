@@ -5,11 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
   <title>My Portfolio</title>
-<script src="script.js"></script>
-  <style>
-  * {
+  </head>
+<body>
+  <header><font face="verdana" size="3" color="white">
+
+    <h1><bold><i>Welcome to My Portfolio</i></bold></h1></font>
+      <nav>
+      <ul>
+        <li><a href="#about"><u>About</u></a></li>
+        <li><a href="#projects"><u>Projects</u></a></li>
+        <li><a href="#contact"><u>Contact</u></a></li>
+      </ul>
+    </nav>
+  </header>
+  <style>* {
   margin: 0;
-  padding: 0;
+  padding:0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
@@ -92,28 +103,26 @@ footer {
   padding: 10px;
   background-color: #4CAF50;
   color: white;
-}
+}</style>
+  <style>body {
+  margin: 0;
+  height: 100%;
+  background: url('/storage/emulated/0/index1.html/4770cf05fe96befcdcd74204ba533198.jpg') no-repeat center center/cover;
+  padding: 20px;
+  }
   </style>
-</head>
-<body>
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
   <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
-    <img src="/storage/emulated/0/index1.html/IMG-20250320-WA0000.jpg">
-      <p>Hello! I'm a passionate web developer with skills in HTML, CSS, and JavaScript. I love creating responsive and interactive web experiences.</p>
-    <a href="index1.html">my resume</a>
+    <img src=" /storage/emulated/0/index1.html/img.jpg" alt="Profile Picture" />
+    <p><h5>Hello! I'm a passionate web developer with skills in HTML, CSS, and JavaScript. I love creating responsive and interactive web experiences.</h5></p>
   </section>
+  <section id="create a resume">
+      <h2>My Resume</h2>
+    <div class ="Resume-cards">
+    </div>
+      <p><h4>Tap on view My Resume:</h4></p></div>
+  <section><div><p><h3><a href=<"index1.html"><font color=blue>View My Resume</font></a></h3></p></div></section>
 
   <!-- Projects Section -->
   <section id="projects">
@@ -126,16 +135,16 @@ footer {
       <h3>Project 2</h3>
       <p>Interactive to-do list application using JavaScript.</p>
     </div>
+   
   </section>
-
-  <!-- Contact Section -->
+ <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Me</h2>
     <form>
-      <label for="name">name:</label>
+      <label for="name">Name:</label>
       <input type="text" id="name" name="name" required />
 
-      <label for="email">email:</label>
+      <label for="email">Email:</label>
       <input type="email" id="email" name="email" required />
 
       <label for="message">Message:</label>
